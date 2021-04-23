@@ -1,0 +1,14 @@
+public class CricketTeam  Team extends Team{
+  public CricketTeam(String n2){
+   name=n2;
+   super(n2);
+  }
+  public String  toString(){
+    System.out.println( "we are "+ name);
+     System.out.println("we play Cricket");
+      } 
+ 
+  
+  
+  
+}

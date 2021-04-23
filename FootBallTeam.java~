@@ -1,0 +1,12 @@
+public class FootBallTeam extends Team{
+  public FootBallTeam(String n1){
+   name=n1;
+   super(n1);
+  }
+  public String  toString(){
+    System.out.println("we are "+ name);
+     System.out.println("we play football");
+      
+  } 
+  
+}
